@@ -23,7 +23,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     //├────────┼────────┼────────┼────────┼────────┼────────┤                          ├────────┼────────┼────────┼────────┼────────┼────────┤
       KC_LSFT, KC_A,    KC_S,    KC_H,    KC_T,    KC_G,                               KC_Y,    KC_N,    KC_E,    KC_O,    KC_I,    KC_QUOT,
     //├────────┼────────┼────────┼────────┼────────┼────────┼────────┐        ┌────────┼────────┼────────┼────────┼────────┼────────┼────────┤
-      MT(KC_LCTL, KC_GRAVE), KC_Z,    KC_X,    KC_M,    KC_C,    KC_V,    KC_DEL,           KC_NO,   KC_K,    KC_L,    KC_COMM, KC_DOT,  KC_SLSH, KC_BSLASH,
+      LCTL_T(KC_GRAVE), KC_Z,    KC_X,    KC_M,    KC_C,    KC_V,    KC_DEL,           KC_NO,   KC_K,    KC_L,    KC_COMM, KC_DOT,  KC_SLSH, KC_BSLASH,
     //└────────┴────────┴────────┴───┬────┴───┬────┴───┬────┴───┬────┘        └───┬────┴───┬────┴───┬────┴───┬────┴────────┴────────┴────────┘
                                       KC_LALT, KC_LGUI, LT(1, KC_BSPACE),          MO(2),   RSFT_T(KC_SPC), KC_ENT
     //                               └────────┴────────┴────────┘                 └────────┴────────┴────────┘

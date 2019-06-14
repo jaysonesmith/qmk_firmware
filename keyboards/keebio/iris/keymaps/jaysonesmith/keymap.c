@@ -23,7 +23,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     //├────────┼────────┼────────┼────────┼────────┼────────┤                          ├────────┼────────┼────────┼────────┼────────┼────────┤
       KC_LSFT, KC_A,    KC_S,    KC_H,    KC_T,    KC_G,                               KC_Y,    KC_N,    KC_E,    KC_O,    KC_I,    KC_QUOT,
     //├────────┼────────┼────────┼────────┼────────┼────────┼────────┐        ┌────────┼────────┼────────┼────────┼────────┼────────┼────────┤
-      KC_LCTL, KC_Z,    KC_X,    KC_M,    KC_C,    KC_V,    KC_DEL,           KC_NO,   KC_K,    KC_L,    KC_COMM, KC_DOT,  KC_SLSH, KC_BSLASH,
+      MT(KC_LCTL, KC_GRAVE), KC_Z,    KC_X,    KC_M,    KC_C,    KC_V,    KC_DEL,           KC_NO,   KC_K,    KC_L,    KC_COMM, KC_DOT,  KC_SLSH, KC_BSLASH,
     //└────────┴────────┴────────┴───┬────┴───┬────┴───┬────┴───┬────┘        └───┬────┴───┬────┴───┬────┴───┬────┴────────┴────────┴────────┘
                                       KC_LALT, KC_LGUI, LT(1, KC_BSPACE),          MO(2),   RSFT_T(KC_SPC), KC_ENT
     //                               └────────┴────────┴────────┘                 └────────┴────────┴────────┘
@@ -37,7 +37,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     //├────────┼────────┼────────┼────────┼────────┼────────┤                          ├────────┼────────┼────────┼────────┼────────┼────────┤
       KC_LSFT, KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_RPRN,                            KC_RBRC, KC_P4,   KC_P5,   KC_P6,   KC_NO,   KC_NO,
     //├────────┼────────┼────────┼────────┼────────┼────────┼────────┐        ┌────────┼────────┼────────┼────────┼────────┼────────┼────────┤
-      KC_LCTL,   KC_NO,   KC_NO,   KC_NO,   KC_EXLM, KC_QUES, KC_NO,            KC_HOME,   KC_NO,   KC_P1,   KC_P2,   KC_P3,   KC_PENT, KC_NO,
+      MT(KC_LCTL, KC_GRAVE),   KC_NO,   KC_NO,   KC_NO,   KC_EXLM, KC_QUES, KC_NO,            KC_HOME,   KC_NO,   KC_P1,   KC_P2,   KC_P3,   KC_PENT, KC_NO,
     //└────────┴────────┴────────┴───┬────┴───┬────┴───┬────┴───┬────┘        └───┬────┴───┬────┴───┬────┴───┬────┴────────┴────────┴────────┘
                                       KC_NO,   KC_NO,   KC_TRNS,                   KC_END,   KC_P0,   KC_PDOT
     //                               └────────┴────────┴────────┘                 └────────┴────────┴────────┘
